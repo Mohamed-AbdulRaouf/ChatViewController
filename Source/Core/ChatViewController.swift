@@ -126,10 +126,10 @@ open class ChatViewController: UIViewController, UITableViewDataSource, UITableV
         setupChatBar()
         setupTypingIndicator()
         initTableView()
-        
-        if configuration.imagePickerType != .actionSheet {
-            initImagePickerView()
-        }
+        chatBarView.galleryButton.isHidden = true
+//        if configuration.imagePickerType != .actionSheet {
+//            initImagePickerView()
+//        }
     }
 
     /// Setup for ChatBarView

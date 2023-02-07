@@ -65,13 +65,13 @@ open class ImagePickerView: UIView {
         collectionView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         
         // Pass actions to collection view
-        collectionView.takePhoto = { [weak self] in
-            self?.openCamera()
-        }
-
-        collectionView.showCollection = { [weak self] in
-            self?.openLibrary()
-        }
+//        collectionView.takePhoto = { [weak self] in
+//            self?.openCamera()
+//        }
+//
+//        collectionView.showCollection = { [weak self] in
+//            self?.openLibrary()
+//        }
     }
 }
 
