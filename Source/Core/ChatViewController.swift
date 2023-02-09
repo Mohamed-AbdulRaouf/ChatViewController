@@ -354,7 +354,7 @@ extension ChatViewController {
                 var image = UIImage(named: "ic_gallery", in: Bundle.chatBundle, compatibleWith: nil)
                 if let tempImage = image?.withRenderingMode(.alwaysTemplate) {
                     image = tempImage
-                    $0.image = image
+//                    $0.image = image
                     $0.tintColor = self?.configuration.galleryButtonDeSelectedColor
                 }
             }
@@ -406,7 +406,7 @@ extension ChatViewController {
                 var image = UIImage(named: "ic_gallery", in: Bundle.chatBundle, compatibleWith: nil)
                 if let tempImage = image?.withRenderingMode(.alwaysTemplate) {
                     image = tempImage
-                    $0.image = image
+//                    $0.image = image
                     $0.tintColor = self?.configuration.galleryButtonDeSelectedColor
                 }
             }
